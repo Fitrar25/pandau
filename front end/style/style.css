@@ -1,0 +1,29 @@
+body{
+    background-color: darkgray;
+    background-image: url();
+}
+
+
+h1{
+    color: rgb(8, 74, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-style: italic;
+    /* obligate untuk memiringkan paksa */
+    font-variant: small-caps;
+    /* ini untuk semua kapital dan huruf awal lebih besar */
+}
+
+.p1 , .p2{
+    color: blueviolet;
+    text-align: justify;
+    /* mengatur susunan pararaf */
+    text-decoration-line: underline;
+    /* text-decoration: ; tanya perbedaannya*/
+    /* w3school font style */
+
+}
+
+.par p{
+    color: azure;
+}

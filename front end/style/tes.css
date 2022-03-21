@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B1464;
+}
+menu ul {
+    list-style-type: none;
+}
+menu li {
+    width: 8em;
+    height: 2em;
+    font-size: 25px;
+    color: #FFC312;
+    border-left: 0.08em solid;
+    position: relative;
+    margin-top: 0.8em;
+    cursor: pointer;
+    border-radius: 30px 30px;
+}
+menu li::before,
+menu li::after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    border-left: 0.1em solid;
+    margin-left: -2px;
+    z-index: -1;
+}
+menu li::before {
+    height: 80%;
+    top: 10%;
+    left: -0.3em;
+    filter: brightness(0.8);
+    border-radius: 25px 25px;
+}
+menu li::after {
+    height: 60%;
+    top: 20%;
+    left: -0.57em;
+    filter: brightness(0.6);
+    border-radius: 25px 25px;
+}
+menu li a {
+    text-decoration: none;
+    height: 92%;
+    border: 0.08em solid #E91E63;
+    background-color: #1B1464;
+    display: flex;
+    color: #FFC312;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transform: translateX(-0.65em);
+    transition: 0.5s;
+    border-radius: 30px 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+menu li:hover a {
+    transform: translateX(0.15em);
+}

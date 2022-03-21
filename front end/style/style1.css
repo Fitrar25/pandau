@@ -1,0 +1,73 @@
+body {
+    background-image: linear-gradient(to right, rgba(97, 97, 97, 0.5), rgba(0,0,0,1)), url('../images/bg.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    
+}
+nav.menu:hover{
+    background-color: gray;
+    color: aliceblue;
+    opacity: 0.5;
+    height: 55px;
+    transition: 1s;
+
+}
+
+ul.header {
+    background-color: transparent;
+    text-align: right ;
+    padding: 20px;
+    
+}
+
+section.info {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1#heading1 {
+    font-size: 30px;
+    display: inline;
+}
+
+img.logo {
+    position:absolute;
+    top: 37px;
+    left: 16px;
+    width: 100px;
+}
+
+div.baris {
+    display: flex;
+    background-color: aliceblue;
+}
+
+div.kolom {
+    margin: 20px;
+    text-align: center;
+}
+
+p.des{
+    text-align: left;
+}
+
+img.post {
+    width: 500px;
+}
+
+button#tombol {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 3px;
+    color: white;
+}
